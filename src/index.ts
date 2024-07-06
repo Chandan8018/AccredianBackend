@@ -1,7 +1,10 @@
 import express, { NextFunction, Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
+import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import referralRoutes from './routes/referral.route';
+
+dotenv.config();
 
 const app = express();
 
