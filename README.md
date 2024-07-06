@@ -27,14 +27,13 @@ Welcome to the backend service for the Refer & Earn application! This service ha
     ``` 
 
 3. **Environment Variables**:
-    - Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
+    ```bash
+    
+    DATABASE_URL="mysql://userName:password@localhost:3306/refer_and_earn"
+    EMAIL="name@gmail.com"
+    PASSWORD="zhdwrvnm*****"
 
-
-  ```bash
-  DATABASE_URL="mysql://userName:password@localhost:3306/refer_and_earn"
-  EMAIL="name@gmail.com"
-  PASSWORD="zhdwrvnm*****"
-  ``` 
+    ``` 
 
 4. **Run Prisma migrations**:
     ```bash
