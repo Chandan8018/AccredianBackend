@@ -1,4 +1,5 @@
-import nodemailer from "nodemailer";
+const nodemailer = require("nodemailer");
+import { PrismaClient } from "@prisma/client";
 import dotenv from "dotenv";
 import Mailgen from "mailgen";
 
