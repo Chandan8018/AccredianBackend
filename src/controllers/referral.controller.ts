@@ -3,9 +3,6 @@ import { errorHandler } from "../utils/error";
 import { PrismaClient } from '@prisma/client';
 
 export const createReferral = async (req: Request, res: Response, next: NextFunction) => {
-  console.log('====================================');
-  console.log("req.body", req.body);
-  console.log('====================================');
   const prisma = new PrismaClient();
   const { name, email, referredBy } = req.body;
 
