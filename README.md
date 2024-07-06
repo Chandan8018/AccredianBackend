@@ -62,8 +62,8 @@ Welcome to the backend service for the Refer & Earn application! This service ha
 ```
 
 ## Demo
-- Invoice Generation Page
-![AfterInvoice](./frontend/public/invoice2.png)
+- Refer Notifiction Mail Page
+![Refer-Notifiction-Mail-Page](./image/mail.png)
 ---
 
 ## Contact
