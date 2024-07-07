@@ -1,4 +1,4 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express, { Request, Response} from 'express';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import referralRoutes from './routes/referral.route';
@@ -22,7 +22,7 @@ interface CustomError extends Error {
 }
 
 //Error-Handling Middleware
-app.use((err: CustomError, req: Request, res: Response, next: NextFunction) => {
+app.use((err: CustomError, req: Request, res: Response) => {
   const statusCode = err.statusCode || 500;
   const message = err.message || "Internal Server Error";
   res.status(statusCode).json({

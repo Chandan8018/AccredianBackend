@@ -1,4 +1,4 @@
-import express, { Request, Response, NextFunction } from 'express';
+import { Request, Response, NextFunction } from 'express';
 import { errorHandler } from "../utils/error";
 import { PrismaClient } from '@prisma/client'
 import { sendReferralEmail } from '../emailService';
