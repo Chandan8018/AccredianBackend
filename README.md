@@ -24,7 +24,7 @@ Welcome to the backend service for the Refer & Earn application! This service ha
 2. **Backend Setup**
     ```bash
     npm install
-    ``` 
+   ``` 
 
 3. **Environment Variables**
     Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
@@ -34,17 +34,17 @@ Welcome to the backend service for the Refer & Earn application! This service ha
     DATABASE_URL="mysql://userName:password@localhost:3306/refer_and_earn"
     EMAIL="name@gmail.com"
     PASSWORD="zhdwrvnm*****"
-    ``` 
+   ``` 
 
 5. **Run Prisma migrations**
     ```bash
     npx prisma migrate dev
-    ``` 
+   ``` 
 
 6. **Start the server**
     ```bash
     npm run dev
-    ``` 
+   ``` 
     
 ## Folder Structure
 
