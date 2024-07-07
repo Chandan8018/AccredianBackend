@@ -21,12 +21,12 @@ Welcome to the backend service for the Refer & Earn application! This service ha
    git clone https://github.com/Chandan8018/AccredianBackend.git
   ```
 
-2. **Backend Setup**:
+2. **Backend Setup**
     ```bash
     npm install
     ``` 
 
-3. **Environment Variables**:
+3. **Environment Variables**
     Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
 
 4. **.env**    
@@ -36,12 +36,12 @@ Welcome to the backend service for the Refer & Earn application! This service ha
     PASSWORD="zhdwrvnm*****"
     ``` 
 
-5. **Run Prisma migrations**:
+5. **Run Prisma migrations**
     ```bash
     npx prisma migrate dev
     ``` 
 
-6. **Start the server**:
+6. **Start the server**
     ```bash
     npm run dev
     ``` 
