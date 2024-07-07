@@ -1,6 +1,6 @@
-import nodemailer from "nodemailer";
-import dotenv from "dotenv";
-import Mailgen from "mailgen";
+import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
+import Mailgen from 'mailgen';
 
 dotenv.config();
 async function sendReferralEmail(
