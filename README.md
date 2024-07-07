@@ -19,6 +19,7 @@ Welcome to the backend service for the Refer & Earn application! This service ha
 1. **Clone the repository**
     ```bash
     git clone https://github.com/Chandan8018/AccredianBackend.git
+    cd AccredianBackend
     ```
 
 2. **Backend Setup**
@@ -34,6 +35,7 @@ Welcome to the backend service for the Refer & Earn application! This service ha
     DATABASE_URL="mysql://userName:password@localhost:3306/refer_and_earn"
     EMAIL="name@gmail.com"
     PASSWORD="zhdwrvnm*****"
+    PORT=1234
     ``` 
 
 5. **Run Prisma migrations**
