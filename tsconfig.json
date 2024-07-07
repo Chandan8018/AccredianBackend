@@ -1,22 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "NodeNext",
+    "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "nodenext",
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "rootDir": "src",
-    "baseUrl": "./",
-    "paths": {
-      "@prisma/*": ["node_modules/@prisma/*"],
-      "dotenv": ["./node_modules/dotenv"]
-    },
-
+    ]
   },
   "include": [
     "src/**/*.ts"

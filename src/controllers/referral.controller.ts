@@ -1,10 +1,10 @@
 import express, { NextFunction, Request, Response } from 'express';
 import { errorHandler } from "../utils/error";
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client'
 import { sendReferralEmail } from '../emailService';
 
+const prisma = new PrismaClient()
 export const createReferral = async (req: Request, res: Response, next: NextFunction) => {
-  const prisma = new PrismaClient();
   const { name, email, referredBy } = req.body;
 
   if (!name || !email || !referredBy) {
