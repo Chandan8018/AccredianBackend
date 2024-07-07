@@ -20,11 +20,11 @@ Welcome to the backend service for the Refer & Earn application! This service ha
    ```bash
    git clone https://github.com/Chandan8018/AccredianBackend.git
   ```
-
+  
 2. **Backend Setup**
    ```bash
    npm install
-  ``` 
+  ```
 
 3. **Environment Variables**
     - Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
