@@ -22,12 +22,12 @@ Welcome to the backend service for the Refer & Earn application! This service ha
   ```
 
 2. **Backend Setup**
-    ```bash
-    npm install
-   ``` 
+   ```bash
+   npm install
+  ``` 
 
 3. **Environment Variables**
-    Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
+    - Create a `.env` file in the root directory and add your MySQL URI, EMAIL, and other necessary environment variables.
 
 4. **.env**    
     ```bash
