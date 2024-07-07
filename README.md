@@ -18,7 +18,7 @@ Welcome to the backend service for the Refer & Earn application! This service ha
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/refer-earn-backend.git
+   git clone https://github.com/Chandan8018/AccredianBackend.git
   ```
 
 2. **Backend Setup**:
